@@ -48,7 +48,7 @@ Project aplikasi ini hanya untuk submission kelas Pemrograman Web Pemula Dicodin
 - [x] Display Galeri and Sertifikasi with image using card style
 - [x] Card style response
 - [x] Header Menu using Side Navigation
-- [x] Using <header>, <footer>, <main>, <article>, and <aside>
+- [x] Using header, footer, main, article, and aside
 
 https://github.com/apursan/Dicoding-Submission-Pemrograman-Web-Pemula.git
 ```
