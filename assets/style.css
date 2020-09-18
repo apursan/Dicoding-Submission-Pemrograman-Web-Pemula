@@ -1,0 +1,569 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+}
+
+/*-----Side Nav-----*/
+
+#menuBtn{
+    width: 50px;
+    position: fixed;
+    right: 50px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+header img{
+    box-shadow: 0px 2px 4px #666666;
+    border-radius: 50%;
+}
+header img:hover{
+    opacity: 0.7;
+}
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #ff847c;
+    z-index: 2;
+    transition: 1s;
+    box-shadow: 0px 2px 4px #666666;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    font-weight: bold;
+}
+
+/*-----Home-----*/
+
+#home{
+    height: 100vh;
+    background-image: url(images/home.png);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logo{
+    margin-top: 30px;
+    width: 150px;
+}
+.home-text{
+    max-width: 350px;
+    margin-top: 120px;
+}
+h1{
+    font-size: 34px;
+}
+.square{
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #e84a5f;
+    margin: 15px 0;
+}
+#homeBtn{
+    padding: 18px 40px;
+    background: #ff847c;
+    outline: none;
+    border: 2px solid #ff847c;
+    font-weight: bold;
+    box-shadow: 0px 4px 8px #666666;
+    cursor: pointer; 
+    border-radius: 5%;  
+}
+button:hover{
+    opacity: 0.7;
+    
+}
+p{
+    font-size: 15px;
+    line-height: 18px;
+    color: #777;
+}
+.home-text button{
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.line-1{
+    width: 15px;
+    height: 15px;
+    background: #e84a5f;
+    display: inline-block;
+}
+.line-2{
+    width: 80px;
+    height: 1px;
+    background: #e84a5f;
+    display: inline-block;
+}
+.line-3{
+    width: 60px;
+    height: 1px;
+    background: #e84a5f;
+    display: inline-block;
+}
+.line{
+    line-height: 8px;
+}
+
+/*-----Galeri-----*/
+
+#galeri{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fe7171;
+}
+.galeri-text{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    max-width: 350px;
+}
+.galeri-text p{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.galeri-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.galeri-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+.galeri-col p{
+    font-size: 15px;
+    line-height: 18px;
+}
+.galeri-col img{
+    width: 120px;    
+    border-radius: 50%;
+}
+.galeri-col h4{
+    margin-bottom: 15px;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+/*-----Sertifikat-----*/
+
+#sertifikat{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #d13636;
+}
+.sertifikat-text{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    max-width: 350px;
+}
+.sertifikat-text p{
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.sertifikat-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.sertifikat-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+.sertifikat-col p{
+    font-size: 15px;
+    line-height: 18px;
+}
+.sertifikat-col img{
+    width: 100px;
+    border-radius: 50%;
+}
+.sertifikat-col h4{
+    margin-bottom: 15px;
+    font-size: 29px;
+    font-weight: 600;
+}
+
+/*-----Tentang-----*/
+
+#tentang, #motivasi1{
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tentang-left-col{
+    flex-basis: 50%;
+}
+.tentang-left-col img{
+    width: 100%;
+}
+.tentang-right-col{
+    flex-basis: 50%;
+    text-align: right;
+}
+.tentang-text{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.tentang-text h2{
+    margin: 50px 0 10px;
+    font-size: 28px;
+    font-style: italic;
+}
+.tentang-text h3{
+    font-size: 20px;
+    font-style: italic;
+    color: #797979;
+}
+
+/*-----Motivasi2-----*/
+
+#motivasi2{
+    padding: 100px 0;
+}
+.motivasi2-row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.motivasi2-right-col{
+    flex-basis: 50%;
+}
+.motivasi2-right-col img{
+    width: 100%;
+}
+.motivasi2-left-col{
+    flex-basis: 50%;
+}
+.motivasi2-text{
+    max-width: 350px;
+}
+.motivasi2-text button{
+    margin: 30px 0;
+}
+
+/*-----Footer-----*/
+
+#footer{
+    padding: 50px 0 30px;
+}
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid #fe7171;
+}
+.footer-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-left-col{
+    flex-basis: 50%;
+    margin-top: 60px;
+}
+.footer-right-col{
+    flex-basis: 17%;
+}
+.footer-links{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.link-title h4{
+    color: #fab3c4;
+    margin-bottom: 20px;
+}
+.link-title small{
+    font-size: 13px;
+    color: #777;
+}
+.footer-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-logo img{
+    width: 150px;
+}
+.footer-logo button{
+    padding: 12px 38px;
+    margin-top: 20px;
+    font-size: 10px;
+}
+.copyright-text{
+    flex-basis: 100%;
+} 
+.footer-logo{
+    flex-basis: 50%;
+}
+
+/*Profile*/
+
+.profile header{
+    text-align: center;
+}
+
+.profile img{
+    width: 200px;
+    border-radius: 50%;
+}
+
+.profile div{
+    text-align: center;
+}
+
+.featured-image{
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+aside{
+    float: center;
+    width: 30%;
+    padding-left: 500px;
+    padding-top: 50px;
+}
+.cardProfile {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.cardProfile:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.2);
+    top: -8px;
+    border: 1px solid #cccccc;
+    background-color: white;
+}
+.card {
+    display: block;
+    top: 0px;
+    position: relative;
+    max-width: 262px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(38, 38, 38, 0.2);
+    border-radius: 4px;
+    padding: 32px 24px;
+    margin: 12px;
+    text-decoration: none;
+    z-index: 0;
+    overflow: hidden;
+    border: 1px solid #f2f8f9;
+    border-radius: 5%;
+    height: 220px;
+    cursor: pointer;
+}
+.card:hover {
+    transition: all 0.2s ease-out;
+    box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.2);
+    top: -8px;
+    border: 1px solid #cccccc;
+    background-color: white;
+}
+
+/*-----Social-Icons-----*/
+
+.social-icons{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.social-icons img{
+    display: block;
+    width: 20px;
+    margin: 0 auto 20px;
+    cursor: pointer;
+}
+.social-icons img:hover{
+    opacity: 60%;
+}
+
+/*===================================================================*/
+
+@media only screen and (max-width: 770px){
+
+    /*-----Side Nav-----*/
+
+    #sideNav{
+        width: 165px;
+        height: 100vh;
+        position: fixed;
+        right: -250px;
+        top: 0;
+        background: #ff847c;
+        z-index: 2;
+        transition: 1s;
+    }
+    nav ul li{
+        list-style: none;
+        margin: 50px 20px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: #fff;
+    }
+    nav ul li a:hover{
+        font-weight: bold;
+    }
+
+    /*-----Home-----*/
+
+    #home{
+        background-image: none;
+    }
+    .container{
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+    .logo{
+        margin-top: 27px;
+        width: 70px;
+    }
+    .home-text{
+        margin-top: 100px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    #menuBtn{
+        width: 40px;
+        right: 15px;
+    }
+    
+    /*-----Social-Icons-----*/
+
+    .social-icons img{
+        width: 14px;
+        margin: 15px auto;
+    }
+
+    /*-----Tentang-----*/
+
+    .tentang-left-col, .tentang-right-col{
+        flex-basis: 100%;
+    }
+    .tentang-text{
+        margin: 50px 50px 0;
+        display: inline-block;
+    }
+    .tentang-text h2{
+        font-size: 18px;
+    }
+
+    /*-----Galeri-----*/
+
+    .galeri-col{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    /*-----Sertifikasi-----*/
+
+    .sertifikat-col{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    /*-----Motivasi-----*/
+
+    .motivasi2-left-col{
+        flex-basis: 100%;
+    }
+    .motivasi2-right-col{
+        flex-basis: 100%;
+        margin-top: 70px;
+    } 
+    
+    /*-----Footer-----*/
+
+    .footer-left-col, .footer-right-col{
+        flex-basis: 100%;
+    }
+    .footer-logo img{
+        width: 70px;
+    }
+    .link-title{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+
+    /*Profile*/
+    .profile header{
+        text-align: center;
+    }
+
+    .profile img{
+        width: 100px;
+        border-radius: 120px;
+    } 
+    .profile div{
+        text-align: center;
+    }   
+
+    .featured-image{
+        width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+    aside{
+        float: center;
+        width: 70%;
+        padding-left: 50px;
+        table-layout: auto;
+    }    
+}
