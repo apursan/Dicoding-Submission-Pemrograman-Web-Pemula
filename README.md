@@ -40,7 +40,7 @@ Project aplikasi ini hanya untuk submission kelas Pemrograman Web Pemula Dicodin
 <img src="https://user-images.githubusercontent.com/41522863/93635293-3dbc4b80-fa1c-11ea-885e-5de22564cec5.PNG"
      alt="Tampilan Responsif"
      style="float: center; margin-right: 10px;"
-     width="500" />
+     width="300" />
      
 ## Features
 #### Submission Checklists
