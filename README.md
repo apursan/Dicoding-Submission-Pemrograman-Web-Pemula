@@ -46,7 +46,7 @@ Project aplikasi ini hanya untuk submission kelas Pemrograman Web Pemula Dicodin
 #### Submission Checklists
 - [x] Display Beranda, Motivasi 1,and Motivasi 2 with background image
 - [x] Display Galeri and Sertifikasi with image using card style
-- [x] Card style response
+- [x] Using Float or Flexbox
 - [x] Header Menu using Side Navigation
 - [x] Using header, footer, main, article, and aside
 
