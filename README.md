@@ -8,7 +8,7 @@ Project aplikasi ini hanya untuk submission kelas Pemrograman Web Pemula Dicodin
 <img src="https://user-images.githubusercontent.com/41522863/93635255-3301b680-fa1c-11ea-86a6-d2d3957381fc.PNG"
      alt="Side Navigation"
      style="float: center; margin-right: 10px;"
-     width="500" />
+     width="800" />
 <img src="https://user-images.githubusercontent.com/41522863/93635263-35fca700-fa1c-11ea-991a-672b0799f6df.PNG"
      alt="Beranda"
      style="float: center; margin-right: 10px;"
